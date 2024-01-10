@@ -48,7 +48,17 @@ heapq.nlargest(n, li)
 heapq.nsmallest(n, li)
 c=heapq.merge([1,2,3],[4,5,6])
 
-  
+##################################### deque(queue/stack) ########################
+from collections import deque
+q=deque([0,1,2])
+q.pop()
+q.popleft()
+q.append()
+q.appendleft()
+q[0]
+q[-1]
+len(q)
+
 ##################################### stack #####################################
 from queue import LifoQueue
 stack = LifoQueue(maxsize=3)
