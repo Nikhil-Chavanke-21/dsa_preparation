@@ -5,6 +5,10 @@ correct all algorithms
 
 .copy() to copy a structure
 
+from collections import Counter
+
+sorted_by_price = sorted(items, key=lambda x: x[1])
+
 l=list(map(int, input().strip().split()))
 m=input()
 map(lambda a: a**2, nums)
