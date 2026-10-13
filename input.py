@@ -19,6 +19,8 @@ ord()
 chr()
 [chr(x) for x in range(97, 123)]
 
+b=[*a, 4,5]
+
 l.remove(4)
 l.index(2)
 
